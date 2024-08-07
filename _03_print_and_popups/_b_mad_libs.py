@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # player.
     # Hint: You will need to add more + signs to join the variables to the
     #       other parts of the story.
-    messagebox.showinfo(message="Piranhas are more "+adjective+" during the day, so cross the river at night\n"+"Piranhas are attracted to fresh "+liquid+" and will most\n"+"Likely take a bite out of your "+bodypart+" If you "+verb+". Whatever\n"+"you do, if you have an open wound, try to find another way to get back to the "+place+". Good luck!")
+    messagebox.showinfo(message="Piranhas are more "+adjective+" during the day, so cross the river at night.\n"+"Piranhas are attracted to fresh "+liquid+" and will most\n"+"likely take a bite out of your "+bodypart+" if you "+verb+". Whatever\n"+"you do, if you have an open wound, try to find another way to get back to the "+place+". Good luck!")
     story = (
         "Piranhas are more [**adjective**] during the day, so cross the river at\n"
         "night. Piranhas are attracted to fresh [**type of liquid**] and will most\n"
